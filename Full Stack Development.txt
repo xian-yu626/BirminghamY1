@@ -1,0 +1,3 @@
+Full Stack Development/ Software Workshop 2Assignment 2Server - Name: Xingyu WangStudent ID: 2198771Client - Name: Sakshi BajareStudent ID: 2198087The main class name in the server - JabberServer.javaThe main class name in client - Main.javaNotes about anything we should be aware of when marking, special instructions, etc. - None
+
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/16" fx:controller="sample.controller.Login">
+   <children>
+      <Label fx:id="errorLabel1" layoutX="118.0" layoutY="87.0" prefHeight="49.0" prefWidth="261.0" text="The username entered is invalid" />
+      <Label fx:id="errorLabel2" layoutX="74.0" layoutY="172.0" prefHeight="49.0" prefWidth="358.0" text="Close the window for further attemps  to enter username" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

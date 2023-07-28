@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.Index">
+   <children>
+<!--      <TableView fx:id="stuTable" layoutX="56.0" layoutY="14.0" prefHeight="375.0" prefWidth="488.0">-->
+<!--         <columns>-->
+<!--            <TableColumn fx:id="stuID"  prefWidth="75.0" text="StudentID" />-->
+<!--            <TableColumn fx:id="mark1"  prefWidth="156.0" text="Mark1" />-->
+<!--            <TableColumn fx:id="mark2"  prefWidth="140.0" text="Mark2" />-->
+<!--            <TableColumn fx:id="mark3"  prefWidth="116.0" text="Mark3" />-->
+<!--         </columns>-->
+<!--      </TableView>-->
+      <TableView fx:id="timeTable" layoutX="56.0" layoutY="25.0" prefHeight="375.0" prefWidth="500.0">
+<!--      <TableView fx:id="timeTable" layoutX="56.0" layoutY="14.0" prefHeight="375.0" prefWidth="488.0">-->
+         <columns>
+            <TableColumn fx:id="username"  prefWidth="175.0" text="username" />
+            <TableColumn fx:id="jabtext"  prefWidth="156.0" text="jabtext" />
+<!--            <TableColumn fx:id="jabid"  prefWidth="140.0" text="jabid" />-->
+            <TableColumn fx:id="jabcount"  prefWidth="116.0" text="jabcount" />
+         </columns>
+      </TableView>
+<!--      <TextField fx:id="T1" layoutX="171.0" layoutY="143.0" prefHeight="47.0" prefWidth="258.0" promptText="Username" />-->
+<!--      <Button fx:id="B1" layoutX="184.0" layoutY="289.0"-->
+<!--              mnemonicParsing="false" onAction="#like"-->
+<!--              prefHeight="39.0" prefWidth="88.0" text="Like" />-->
+
+<!--       <Button fx:id="B2" layoutX="413.0" layoutY="289.0" mnemonicParsing="false"-->
+<!--               onAction="#signOut" prefHeight="39.0" prefWidth="88.0" text="Sign Out" />-->
+<!--       <Button fx:id="B3" layoutX="413.0" layoutY="289.0" mnemonicParsing="false"-->
+<!--               onAction="#followView" prefHeight="39.0" prefWidth="88.0" text="Who to follow" />-->
+
+<!--       <Button fx:id="B4" layoutX="413.0" layoutY="289.0" mnemonicParsing="false"-->
+<!--               onAction="#postView" prefHeight="39.0" prefWidth="88.0" text="Post" />-->
+
+<!--       <Label fx:id="label" layoutX="206.0" layoutY="404.0" prefHeight="39.0" prefWidth="196.0" text="Status" />-->
+
+
+
+
+       <Button fx:id="B1" layoutX="80.0" layoutY="450.0"
+               mnemonicParsing="false" onAction="#like"
+               prefHeight="39.0" prefWidth="88.0" text="Like" />
+
+<!--       <Button fx:id="B2" layoutX="480.0" layoutY="400.0" mnemonicParsing="false"-->
+<!--               onAction="#signOut" prefHeight="39.0" prefWidth="88.0" text="Sign Out" />-->
+       <Button fx:id="B3" layoutX="280.0" layoutY="450.0" mnemonicParsing="false"
+               onAction="#followView" prefHeight="39.0" prefWidth="188.0" text="Who to follow" />
+
+       <Button fx:id="B4" layoutX="180.0" layoutY="450.0" mnemonicParsing="false"
+               onAction="#postView" prefHeight="39.0" prefWidth="88.0" text="Post" />
+
+       <Label fx:id="label" layoutX="140.0" layoutY="500.0" prefHeight="39.0" prefWidth="196.0" text="Status" />
+
+
+
+
+
+   </children>
+
+</AnchorPane>

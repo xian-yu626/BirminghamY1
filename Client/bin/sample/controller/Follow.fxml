@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.Follow">
+   <children>
+      <TableView fx:id="userTable" layoutX="56.0" layoutY="14.0" prefHeight="375.0" prefWidth="500.0">
+         <columns>
+            <TableColumn fx:id="username"  prefWidth="175.0" text="username" />
+         </columns>
+      </TableView>
+      <Button fx:id="B1" layoutX="184.0" layoutY="420.0"
+              mnemonicParsing="false" onAction="#follow"
+              prefHeight="39.0" prefWidth="88.0" text="Follow" />
+      <Button fx:id="B2" layoutX="280.0" layoutY="420.0" mnemonicParsing="false" onAction="#backIndex" prefHeight="39.0" prefWidth="88.0" text="Back" />
+      <Label fx:id="label" layoutX="280.0" layoutY="460.0" prefHeight="39.0" prefWidth="196.0" text="Status" />
+   </children>
+</AnchorPane>

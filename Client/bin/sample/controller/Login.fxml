@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.Login">
+   <children>
+      <TextField fx:id="T1" layoutX="171.0" layoutY="143.0" prefHeight="47.0" prefWidth="258.0" promptText="Username" />
+      <Button fx:id="B1" layoutX="184.0" layoutY="289.0" mnemonicParsing="false" onAction="#signIn" prefHeight="39.0" prefWidth="88.0" text="Sign In" />
+      <Label fx:id="label" layoutX="260.0" layoutY="350.0" prefHeight="39.0" prefWidth="196.0" text="Status" />
+      <Button fx:id="B2" layoutX="300.0" layoutY="289.0"
+              mnemonicParsing="false"
+              onAction="#register"
+              prefHeight="39.0"
+              prefWidth="88.0"
+              text="Register" />
+<!--      <Button fx:id="B3" layoutX="413.0" layoutY="289.0" mnemonicParsing="false" onAction="#signOut" prefHeight="39.0" prefWidth="88.0" text="Sign Out" />-->
+<!--      <Button fx:id="addBtn" mnemonicParsing="false"-->
+
+<!--              prefHeight="22.0"-->
+<!--              prefWidth="130.0"-->
+<!--              text="Add">-->
+<!--      </Button>-->
+   </children>
+</AnchorPane>
